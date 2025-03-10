@@ -24,4 +24,17 @@ public class SettingsPopup : MonoBehaviour
         Debug.Log($"Speed: {speed}");
         Messenger<float>.Broadcast(GameEvent.SPEED_CHANGED, speed);
     }
+
+    public void OnSensValue(float sens)
+    {
+        Debug.Log($"Sensitivity: {sens}");
+        Messenger<float>.Broadcast(GameEvent.SENS_CHANGED, sens);
+    }
+
+    //Exits Game
+    public void ExitGame()
+    {
+        Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
+    }
 }

@@ -358,6 +358,7 @@
 "Assets/Scripts/Fireball.cs"
 "Assets/Scripts/FireballShooter.cs"
 "Assets/Scripts/FPSinput.cs"
+"Assets/Scripts/MoneyPickup.cs"
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/RayShooter.cs"

@@ -8,6 +8,9 @@ public class RayShooter : MonoBehaviour
     // Private field; stores a reference to the camera
     private Camera cam;
 
+    //Counts how many enemy player has killed.
+    int hitCounter = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +33,7 @@ public class RayShooter : MonoBehaviour
 
         GUI.Label(new Rect(posX, posY, size, size), "+");
 
-        if (GUI.Button(new Rect(10, 10, 180, 20), "Mission: Take all you can")) ;
+        if (GUI.Button(new Rect(10, 10, 180, 20), "Mission: Take all you can")) 
         {
             Debug.Log("Button has been clicked");
         }
@@ -81,11 +84,22 @@ public class RayShooter : MonoBehaviour
                 // Otherwise, place down a sphere
 
                 ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
+                
                 // EnemyHealth enemyHealth = hitObject.GetComponent<EnemyHealth>();
                 if (target != null)
                 {
                     target.ReactToHit();
                     if (target.deathAnim != null) Messenger.Broadcast(GameEvent.ENEMY_HIT);
+
+                    //Adds one to the kill counter when an enemy is hit.
+                    hitCounter += 1;
+
+                    //Exits the game when the player kills all the enemies.
+                    if (hitCounter == 7){
+                        Application.Quit();
+                        UnityEditor.EditorApplication.isPlaying = false;
+                    }
+
                     // enemyHealth.TakeDamage(); // Reduce health by q
                     Debug.Log("Enemy hit!");
                 }
