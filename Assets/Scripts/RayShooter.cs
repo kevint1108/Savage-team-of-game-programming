@@ -9,7 +9,7 @@ public class RayShooter : MonoBehaviour
     private Camera cam;
 
     //Counts how many enemy player has killed.
-    int hitCounter = 0;
+    //int hitCounter = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -89,16 +89,7 @@ public class RayShooter : MonoBehaviour
                 if (target != null)
                 {
                     target.ReactToHit();
-                    if (target.deathAnim != null) Messenger.Broadcast(GameEvent.ENEMY_HIT);
-
-                    //Adds one to the kill counter when an enemy is hit.
-                    hitCounter += 1;
-
-                    //Exits the game when the player kills all the enemies.
-                    if (hitCounter == 7){
-                        Application.Quit();
-                        UnityEditor.EditorApplication.isPlaying = false;
-                    }
+                    //if (target.deathAnim != null) Messenger.Broadcast(GameEvent.ENEMY_HIT);
 
                     // enemyHealth.TakeDamage(); // Reduce health by q
                     Debug.Log("Enemy hit!");

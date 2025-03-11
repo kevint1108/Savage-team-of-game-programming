@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MoneyPickup : MonoBehaviour
 {
-    //Makes money bag amount 50000.
-    private int moneyAmount = 50000;
+    //Makes money bag amount 10000.
+    private int moneyAmount = 10000;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +25,7 @@ public class MoneyPickup : MonoBehaviour
             Destroy(gameObject);
             Messenger.Broadcast(GameEvent.MONEY_PICKUP);
             //Gets money it prints this message.
-            Debug.Log("Gained 50000$!");
+            Debug.Log("Gained 10000$!");
         }
     }
 
