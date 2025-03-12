@@ -1668,8 +1668,8 @@
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 15801,
-      "PayloadLength": 36,
-      "PayloadDebugContentSnippet": "DefaultCompany\nMidterm Shootin",
+      "PayloadLength": 33,
+      "PayloadDebugContentSnippet": "Team Arthur\nMidterm Shooting G",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
