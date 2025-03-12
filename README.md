@@ -30,4 +30,4 @@ The inspiration behind our was GTA 5 where just like in GTA 5 you would rob bank
 * **Get away car:** https://csusb.instructure.com/courses/46199/files/7592321?module_item_id=2846350
 
 **Unity Editor Version:**
-*2022.3.56f1
+* 2022.3.56f1
