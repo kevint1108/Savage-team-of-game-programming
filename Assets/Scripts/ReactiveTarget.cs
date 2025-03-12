@@ -5,6 +5,7 @@ using UnityEngine;
 public class ReactiveTarget : MonoBehaviour {
 
     //[SerializeField] private ParticleSystem _particles;
+
     //public Coroutine deathAnim { private set; get; }
     private bool _alreadyHit;
     public static int totalHitCount = 0;
@@ -50,7 +51,7 @@ public class ReactiveTarget : MonoBehaviour {
         //Exits the game when the player kills all the enemies.
         if (totalHitCount >= totalEnemies){
             Application.Quit();
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
 
         // Get reference to wandering AI script

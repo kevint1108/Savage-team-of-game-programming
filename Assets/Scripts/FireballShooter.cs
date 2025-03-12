@@ -6,6 +6,9 @@ public class FireballShooter : MonoBehaviour
 {
     [SerializeField] GameObject fireballPrefab;
 
+    [SerializeField] AudioSource soundSource;
+    [SerializeField] AudioClip gunShotSound;
+
     public float sphereCastRadius = 1f;
     public float detectionRange = 5f;
     public float fireballCooldown = 0.9f;
@@ -56,6 +59,7 @@ public class FireballShooter : MonoBehaviour
                         GameObject fireball = Instantiate(fireballPrefab);
                         fireball.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);
                         fireball.transform.rotation = transform.rotation;
+                        soundSource.PlayOneShot(gunShotSound);
 
                         _currentCooldown = fireballCooldown;
                     }

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class HealthPack : MonoBehaviour
 {
+    [SerializeField] AudioSource soundSource;
+    [SerializeField] AudioClip healthPackSound;
+
     //Makes health pack.
     private int healAmount;
     // Start is called before the first frame update
@@ -26,6 +29,7 @@ public class HealthPack : MonoBehaviour
                 Debug.Log("Gained 1 health!");
                 //Destroys object/health pack when picked up.
                 Destroy(gameObject);
+                soundSource.PlayOneShot(healthPackSound);
             }
             else{
                 Debug.Log("Max Health");

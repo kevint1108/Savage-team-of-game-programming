@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Armor : MonoBehaviour
 {
+    [SerializeField] AudioSource soundSource;
+    [SerializeField] AudioClip armorSound;
+
     //Makes Armor.
     private int armorAmount;
     // Start is called before the first frame update
@@ -26,6 +29,7 @@ public class Armor : MonoBehaviour
             Debug.Log("Gained armor!");
             //Destroys object/armor when picked up.
             Destroy(gameObject);
+            soundSource.PlayOneShot(armorSound);
         }
     }
 

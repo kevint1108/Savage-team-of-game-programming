@@ -35,7 +35,7 @@ public class PlayerCharacter : MonoBehaviour
         {
             Debug.Log("YOU LOSE!");
             Application.Quit();
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
     }
     

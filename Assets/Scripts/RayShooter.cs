@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class RayShooter : MonoBehaviour
 {
+    [SerializeField] AudioSource soundSource;
+    [SerializeField] AudioClip hitWallSound;
+    [SerializeField] AudioClip hitEnemySound;
+    [SerializeField] AudioClip gunShotSound;
 
     // Private field; stores a reference to the camera
     private Camera cam;
@@ -72,6 +76,8 @@ public class RayShooter : MonoBehaviour
             // Create a ray whose starting point is the middle of the screen
             Ray ray = cam.ScreenPointToRay(point);
 
+            soundSource.PlayOneShot(gunShotSound);
+
             // Create a raycast object to figure out whar was hit
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
@@ -89,6 +95,7 @@ public class RayShooter : MonoBehaviour
                 if (target != null)
                 {
                     target.ReactToHit();
+                    soundSource.PlayOneShot(hitEnemySound);
                     //if (target.deathAnim != null) Messenger.Broadcast(GameEvent.ENEMY_HIT);
 
                     // enemyHealth.TakeDamage(); // Reduce health by q
@@ -98,6 +105,7 @@ public class RayShooter : MonoBehaviour
                 else
                 {
                     StartCoroutine(SphereIndicator(hit.point));
+                    soundSource.PlayOneShot(hitWallSound);
                 }
 
             }
