@@ -3,11 +3,11 @@
 The inspiration behind our was GTA 5 where just like in GTA 5 you would rob banks and fight your way out of the bank by killing the bad guys/good guys which are the cops. It's a FPS game that allows players to pickup health packs, armor, and money around the map which have sound effects added to them. All this can be done while fighting 10 cops that are placed on the map for the player to fight. The player can shoot the cops and it has sound effects for when they to so and so do the cops when the shoot back at the player. The goal of the game is to go into the bank and get as much money as you can and make it out alive by killing all the cops. The games win condition is to kill all 10 of the cops that are spread throughout the map. While the lose condition is the players health dropping down to 0 by being shot by the cops.
 
 **Group Members:**
-      * **Alexis Naranjo:** Level Design (Lay and design of the bank)
-      * **Binh Tang:** Art concept (Assets and textures used)
-      * **Robert Nguyen:** System design (Scripts)
-      * **Iliana Flores:** Camargo - Sound effect (Audio and sound effects)
-      * **Osvaldo Perez:** UI/UX (UI and pop settings)
+* **Alexis Naranjo:** Level Design (Lay and design of the bank)
+* **Binh Tang:** Art concept (Assets and textures used)
+* **Robert Nguyen:** System design (Scripts)
+* **Iliana Flores Camargo:** Sound effect (Audio and sound effects)
+* **Osvaldo Perez:** UI/UX (UI and pop settings)
 
 **Third Party Assets:**
       * **Bank walls, bank tables, bank pillars:** https://opengameart.org/content/real-marble-textures-collection-set-1
