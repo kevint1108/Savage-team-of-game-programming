@@ -7,27 +7,27 @@ The inspiration behind our was GTA 5 where just like in GTA 5 you would rob bank
 * **Binh Tang:** Art concept (Assets and textures used)
 * **Robert Nguyen:** System design (Scripts)
 * **Iliana Flores Camargo:** Sound effect (Audio and sound effects)
-* **Osvaldo Perez:** UI/UX (UI and pop settings)
+* **Osvaldo Perez:** UI/UX (UI and popup settings)
 
 **Third Party Assets:**
-      * **Bank walls, bank tables, bank pillars:** https://opengameart.org/content/real-marble-textures-collection-set-1
-      * **Bank Floor:** https://assetstore.unity.com/packages/2d/textures-materials/floor-textures-4k-179126
-      * **Skybox:** https://opengameart.org/content/clouds-skybox-1
-      * **Bank Dividers:** https://opengameart.org/content/metal001-seamless-metal001specularpng
-      * **Vault Floor:** https://opengameart.org/content/metal-from-frying-pan
-      * **Restroom:** https://assetstore.unity.com/packages/3d/props/low-poly-wc-260967
-      * **Police Cars:** https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496
-      * **Money:** https://assetstore.unity.com/packages/3d/props/money-pack-84433
-      * **ATM:** https://assetstore.unity.com/packages/3d/environments/urban/low-poly-atm-153420
-      * **Health and Armor:** https://assetstore.unity.com/packages/3d/props/first-aid-set-160073
-      * **Police and Hidden Robber:** https://assetstore.unity.com/packages/3d/characters/easy-primitive-people-161846
-      * **Health and Armor Sound Effects:** https://assetstore.unity.com/packages/audio/sound-fx/rpg-essentials-sound-effects-free-227708
-      * **Footsteps Sound Effect:** https://assetstore.unity.com/packages/audio/sound-fx/foley/footsteps-essentials-189879
-      * **Gun Sound Effect:** https://assetstore.unity.com/packages/audio/sound-fx/weapons/weapons-of-choice-free-101807#content
-      * **Gunshot miss Sound Effect:** https://github.com/jhocking/uia-3e/tree/main/ch11/Assets/Sound%20FX
-      * **Cops being shot Sound Effect:** https://assetstore.unity.com/packages/audio/sound-fx/regular-impact-sounds-sound-effects-278024#content
-      * **Outside Walls and Floor:** https://csusb.instructure.com/courses/46199/files/7592322?module_item_id=2846349
-      * **Get away car:** https://csusb.instructure.com/courses/46199/files/7592321?module_item_id=2846350
+* **Bank walls, bank tables, bank pillars:** https://opengameart.org/content/real-marble-textures-collection-set-1
+* **Bank Floor:** https://assetstore.unity.com/packages/2d/textures-materials/floor-textures-4k-179126
+* **Skybox:** https://opengameart.org/content/clouds-skybox-1
+* **Bank Dividers:** https://opengameart.org/content/metal001-seamless-metal001specularpng
+* **Vault Floor:** https://opengameart.org/content/metal-from-frying-pan
+* **Restroom:** https://assetstore.unity.com/packages/3d/props/low-poly-wc-260967
+* **Police Cars:** https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496
+* **Money:** https://assetstore.unity.com/packages/3d/props/money-pack-84433
+* **ATM:** https://assetstore.unity.com/packages/3d/environments/urban/low-poly-atm-153420
+* **Health and Armor:** https://assetstore.unity.com/packages/3d/props/first-aid-set-160073
+* **Police and Hidden Robber:** https://assetstore.unity.com/packages/3d/characters/easy-primitive-people-161846
+* **Health and Armor Sound Effects:** https://assetstore.unity.com/packages/audio/sound-fx/rpg-essentials-sound-effects-free-227708
+* **Footsteps Sound Effect:** https://assetstore.unity.com/packages/audio/sound-fx/foley/footsteps-essentials-189879
+* **Gun Sound Effect:** https://assetstore.unity.com/packages/audio/sound-fx/weapons/weapons-of-choice-free-101807#content
+* **Gunshot miss Sound Effect:** https://github.com/jhocking/uia-3e/tree/main/ch11/Assets/Sound%20FX
+* **Cops being shot Sound Effect:** https://assetstore.unity.com/packages/audio/sound-fx/regular-impact-sounds-sound-effects-278024#content
+* **Outside Walls and Floor:** https://csusb.instructure.com/courses/46199/files/7592322?module_item_id=2846349
+* **Get away car:** https://csusb.instructure.com/courses/46199/files/7592321?module_item_id=2846350
 
 **Unity Editor Version:**
-      *2022.3.56f1
+*2022.3.56f1
